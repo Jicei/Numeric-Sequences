@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CE45481-64DE-406A-A00E-C5FC726EDAF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Меню</RootNamespace>
+    <AssemblyName>Меню</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFractalLP_anim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFractalLP_anim.Designer.cs">
+      <DependentUpon>frmFractalLP_anim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFractalP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFractalP.Designer.cs">
+      <DependentUpon>frmFractalP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFractalP_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFractalP_2.Designer.cs">
+      <DependentUpon>frmFractalP_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG1.Designer.cs">
+      <DependentUpon>frmG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG1_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG1_2.Designer.cs">
+      <DependentUpon>frmG1_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG2.Designer.cs">
+      <DependentUpon>frmG2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG2_2.Designer.cs">
+      <DependentUpon>frmG2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG3.Designer.cs">
+      <DependentUpon>frmG3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG3_2.Designer.cs">
+      <DependentUpon>frmG3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG4.Designer.cs">
+      <DependentUpon>frmG4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG4_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG4_2.Designer.cs">
+      <DependentUpon>frmG4_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG6.Designer.cs">
+      <DependentUpon>frmG6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmG6_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmG6_2.Designer.cs">
+      <DependentUpon>frmG6_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeom.Designer.cs">
+      <DependentUpon>frmGeom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKoxa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKoxa.Designer.cs">
+      <DependentUpon>frmKoxa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKoxa2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKoxa2.Designer.cs">
+      <DependentUpon>frmKoxa2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPract.Designer.cs">
+      <DependentUpon>frmPract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeor.Designer.cs">
+      <DependentUpon>frmTeor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTK.Designer.cs">
+      <DependentUpon>frmTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTK2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTK2.Designer.cs">
+      <DependentUpon>frmTK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTS.Designer.cs">
+      <DependentUpon>frmTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTS2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTS2.Designer.cs">
+      <DependentUpon>frmTS2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Titul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Titul.Designer.cs">
+      <DependentUpon>Titul.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFractalLP_anim.resx">
+      <DependentUpon>frmFractalLP_anim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFractalP.resx">
+      <DependentUpon>frmFractalP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFractalP_2.resx">
+      <DependentUpon>frmFractalP_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG1.resx">
+      <DependentUpon>frmG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG1_2.resx">
+      <DependentUpon>frmG1_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG2.resx">
+      <DependentUpon>frmG2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG2_2.resx">
+      <DependentUpon>frmG2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG3.resx">
+      <DependentUpon>frmG3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG3_2.resx">
+      <DependentUpon>frmG3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG4.resx">
+      <DependentUpon>frmG4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG4_2.resx">
+      <DependentUpon>frmG4_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG6.resx">
+      <DependentUpon>frmG6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmG6_2.resx">
+      <DependentUpon>frmG6_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeom.resx">
+      <DependentUpon>frmGeom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKoxa.resx">
+      <DependentUpon>frmKoxa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKoxa2.resx">
+      <DependentUpon>frmKoxa2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPract.resx">
+      <DependentUpon>frmPract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeor.resx">
+      <DependentUpon>frmTeor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTK.resx">
+      <DependentUpon>frmTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTK2.resx">
+      <DependentUpon>frmTK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTS.resx">
+      <DependentUpon>frmTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTS2.resx">
+      <DependentUpon>frmTS2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Titul.resx">
+      <DependentUpon>Titul.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
